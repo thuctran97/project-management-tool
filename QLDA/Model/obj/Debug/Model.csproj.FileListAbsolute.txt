@@ -1,0 +1,10 @@
+D:\ASP.NET\QLDA\Model\bin\Debug\Model.dll.config
+D:\ASP.NET\QLDA\Model\bin\Debug\Model.dll
+D:\ASP.NET\QLDA\Model\bin\Debug\Model.pdb
+D:\ASP.NET\QLDA\Model\bin\Debug\EntityFramework.dll
+D:\ASP.NET\QLDA\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.NET\QLDA\Model\bin\Debug\EntityFramework.xml
+D:\ASP.NET\QLDA\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.NET\QLDA\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\ASP.NET\QLDA\Model\obj\Debug\Model.dll
+D:\ASP.NET\QLDA\Model\obj\Debug\Model.pdb
