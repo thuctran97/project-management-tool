@@ -47,6 +47,34 @@ namespace ProjectManager.Controllers
         {
             return View();
         }
+        public ActionResult Register()
+        {
+            return View();
 
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Register(UserLogin u, string cmPass)
+        {
+            if (ModelState.IsValid)
+            {
+                if (u.Password!=cmPass)
+                {
+                    ViewBag.Message = "Mật khẩu xác nhận không đúng";
+                    return View();
+                } else
+                using (QLDAEntities en = new QLDAEntities())
+                {
+                        u.Id = "U004";
+                        en.UserLogins.Add(u);
+                        en.SaveChanges();
+                        ViewBag.Message = "Đăng kí thành công";
+                        return View();
+                }
+               
+            }
+            return View();
+
+        }
     }
 }
